@@ -43,6 +43,17 @@ public class Main {
                 int multAnswer = mult1 * mult2;
                 System.out.println(multAnswer);
                 break;
+            case 4:
+                System.out.println("Please beware, division can be a bit SHAKEY!!");
+                System.out.println("Please enter the first number");
+                int div1 = scan.nextInt();
+                System.out.println("Please enter the second number");
+                int div2 = scan.nextInt();
+                int divAnswer = div1 / div2;
+                System.out.println(divAnswer);
+                break;
+            case 5:
+                
 
         }
 
