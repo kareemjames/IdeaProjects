@@ -35,6 +35,14 @@ public class Main {
                 int subAnswer = sub1 - sub2;
                 System.out.println(subAnswer);
                 break;
+            case 3:
+                System.out.println("Please enter the first number");
+                int mult1 = scan.nextInt();
+                System.out.println("Please enter the second number");
+                int mult2 = scan.nextInt();
+                int multAnswer = mult1 * mult2;
+                System.out.println(multAnswer);
+                break;
 
         }
 
