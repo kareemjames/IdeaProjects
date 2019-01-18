@@ -2,6 +2,8 @@ package com.company;
 
 import java.util.Scanner;
 
+import static java.lang.StrictMath.sqrt;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -53,7 +55,11 @@ public class Main {
                 System.out.println(divAnswer);
                 break;
             case 5:
-                
+                System.out.println("Please enter the number you want the square of");
+                int sq1 = scan.nextInt();
+                double sqAnswer = Math.sqrt((double) sq1);
+                System.out.println(sqAnswer);
+                break;
 
         }
 
