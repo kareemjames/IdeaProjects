@@ -60,7 +60,11 @@ public class Main {
                 double sqAnswer = Math.sqrt((double) sq1);
                 System.out.println(sqAnswer);
                 break;
-
+            case 6:
+                System.out.println("Bye Bye");
+                System.exit(0);
+            default:
+                System.out.println("Please choose available choice");
         }
 
     }
