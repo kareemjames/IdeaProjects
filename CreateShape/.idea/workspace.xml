@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="992c5e6b-1f7f-42fa-a245-7748fb9ac028" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/com/company/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Circle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/ShapeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/ShapeDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Triangle.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/ShapeDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="328">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
             </state>
           </provider>
         </entry>
@@ -25,8 +27,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Circle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+            <state relative-caret-position="300">
+              <caret line="20" column="50" lean-forward="true" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
               <folding>
                 <element signature="e#94#95#0" expanded="true" />
                 <element signature="e#123#124#0" expanded="true" />
@@ -37,12 +39,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Triangle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+            <state relative-caret-position="240">
+              <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
               <folding>
+                <element signature="e#158#159#0" expanded="true" />
+                <element signature="e#188#189#0" expanded="true" />
+                <element signature="e#234#235#0" expanded="true" />
+                <element signature="e#272#273#0" expanded="true" />
+                <element signature="e#158#159#0" expanded="true" />
+                <element signature="e#188#189#0" expanded="true" />
+                <element signature="e#234#235#0" expanded="true" />
+                <element signature="e#272#273#0" expanded="true" />
                 <element signature="e#129#130#0" expanded="true" />
                 <element signature="e#158#159#0" expanded="true" />
                 <element signature="e#202#203#0" expanded="true" />
@@ -81,8 +91,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/company/Circle.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Triangle.java" />
         <option value="$PROJECT_DIR$/src/com/company/ShapeDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Triangle.java" />
       </list>
     </option>
   </component>
@@ -126,7 +136,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548192044184" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548192901059" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -167,12 +177,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1548186844755</updated>
-      <workItem from="1548186846431" duration="4864000" />
+      <workItem from="1548186846431" duration="5561000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4864000" />
+    <option name="totallyTimeSpent" value="5561000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
@@ -220,10 +230,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/ShapeDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Circle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        <state relative-caret-position="300">
+          <caret line="20" column="50" lean-forward="true" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
           <folding>
             <element signature="e#94#95#0" expanded="true" />
             <element signature="e#123#124#0" expanded="true" />
@@ -235,9 +252,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Triangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        <state relative-caret-position="240">
+          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
           <folding>
+            <element signature="e#158#159#0" expanded="true" />
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#158#159#0" expanded="true" />
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
             <element signature="e#129#130#0" expanded="true" />
             <element signature="e#158#159#0" expanded="true" />
             <element signature="e#202#203#0" expanded="true" />
@@ -247,13 +272,6 @@
             <element signature="e#194#195#0" expanded="true" />
             <element signature="e#226#227#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/ShapeDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>

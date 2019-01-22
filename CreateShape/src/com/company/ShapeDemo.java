@@ -34,7 +34,9 @@ public class ShapeDemo {
                         double circleRadius = scan.nextInt();
                         circle.setRadius(circleRadius);
                         double circleArea = circle.area();
-                        System.out.println("You have created a circle with the radius of " + circle.getRadius() + " diameter of " + circle.getDiamter() + " and the area of " + circleArea);
+                        double circlePerimeter = circle.perimeter();
+
+                        System.out.println("You have created a circle with the radius of " + circle.getRadius() + " diameter of " + circle.getDiamter() + "  the area of " + circleArea + " and the perimeter of " + circlePerimeter);
                         break;
                     case 2:
                         System.out.println("You have chosen to make a Triangle");
@@ -46,7 +48,9 @@ public class ShapeDemo {
                         System.out.println("Can you please provide the height of the triangle");
                         double triHeight = scan.nextInt();
                         triangle.setHeight(triHeight);
+
                         double triArea = triangle.area();
+
                         System.out.println("You have created a Triangle with a base of " + triangle.getBase() + " a height of " + triangle.getHeight() + " and an area of " + triArea);
                         break;
                     case 3:
