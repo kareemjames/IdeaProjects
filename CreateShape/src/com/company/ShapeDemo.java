@@ -19,7 +19,6 @@ public class ShapeDemo {
             if(scan.hasNextInt()) {
                 option = scan.nextInt();
                 if(option == 1 || option == 2|| option == 3) {
-                    System.out.println("Success " + option);
                     error = false;
                 } else {
                     System.out.println("Please enter a vaild choice");
@@ -28,7 +27,7 @@ public class ShapeDemo {
 
                 switch(option) {
                     case 1:
-                        System.out.println("You have chosen to make a circle");
+                        System.out.println("You have chosen to make a Circle");
                         System.out.println("Can you please provide the radius of the circle");
 
                         Circle circle = new Circle();
@@ -38,7 +37,17 @@ public class ShapeDemo {
                         System.out.println("You have created a circle with the radius of " + circle.getRadius() + " diameter of " + circle.getDiamter() + " and the area of " + circleArea);
                         break;
                     case 2:
-                        System.out.println("You have choosen option 2");
+                        System.out.println("You have chosen to make a Triangle");
+                        System.out.println("Can you please provide the base of the triangle");
+
+                        Triangle triangle = new Triangle();
+                        double triBase = scan.nextInt();
+                        triangle.setBase(triBase);
+                        System.out.println("Can you please provide the height of the triangle");
+                        double triHeight = scan.nextInt();
+                        triangle.setHeight(triHeight);
+                        double triArea = triangle.area();
+                        System.out.println("You have created a Triangle with a base of " + triangle.getBase() + " a height of " + triangle.getHeight() + " and an area of " + triArea);
                         break;
                     case 3:
                         System.out.println("You have choosen option 3");
