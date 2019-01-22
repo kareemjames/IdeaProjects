@@ -21,4 +21,9 @@ public class Circle {
         double circleArea = Math.PI * radius * radius;
         return circleArea;
     }
+
+    public double perimeter() {
+        double circlePerimeter = 2 * Math.PI * radius;
+        return circlePerimeter;
+    }
 }
