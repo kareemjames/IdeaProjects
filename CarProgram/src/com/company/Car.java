@@ -28,4 +28,8 @@ public class Car {
     public void setColor(String color) {
         this.color = color;
     }
+
+    public void honkHorn() {
+        System.out.println("Beep Beep");
+    }
 }
