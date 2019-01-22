@@ -17,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/CalculatorDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="19" column="43" lean-forward="true" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+            <state relative-caret-position="385">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
             </state>
           </provider>
         </entry>
@@ -26,23 +26,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Calculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+            <state relative-caret-position="160">
+              <caret line="32" column="27" lean-forward="true" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
               <folding>
-                <element signature="e#144#145#0" expanded="true" />
-                <element signature="e#171#172#0" expanded="true" />
+                <element signature="e#181#182#0" expanded="true" />
                 <element signature="e#208#209#0" expanded="true" />
-                <element signature="e#240#241#0" expanded="true" />
-                <element signature="e#152#153#0" expanded="true" />
-                <element signature="e#180#181#0" expanded="true" />
-                <element signature="e#222#223#0" expanded="true" />
-                <element signature="e#256#257#0" expanded="true" />
-                <element signature="e#123#124#0" expanded="true" />
-                <element signature="e#151#152#0" expanded="true" />
-                <element signature="e#190#191#0" expanded="true" />
-                <element signature="e#224#225#0" expanded="true" />
-                <element signature="e#254#255#0" expanded="true" />
-                <element signature="e#283#284#0" expanded="true" />
+                <element signature="e#248#249#0" expanded="true" />
+                <element signature="e#280#281#0" expanded="true" />
+                <element signature="e#339#340#0" expanded="true" />
+                <element signature="e#367#368#0" expanded="true" />
+                <element signature="e#409#410#0" expanded="true" />
+                <element signature="e#443#444#0" expanded="true" />
+                <element signature="e#475#476#0" expanded="true" />
+                <element signature="e#503#504#0" expanded="true" />
+                <element signature="e#545#546#0" expanded="true" />
+                <element signature="e#579#580#0" expanded="true" />
+                <element signature="e#612#613#0" expanded="true" />
+                <element signature="e#641#642#0" expanded="true" />
                 <element signature="e#324#325#0" expanded="true" />
                 <element signature="e#360#361#0" expanded="true" />
               </folding>
@@ -59,6 +59,14 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>int</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>double</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -66,8 +74,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/company/CalculatorDemo.java" />
         <option value="$PROJECT_DIR$/src/com/company/Calculator.java" />
+        <option value="$PROJECT_DIR$/src/com/company/CalculatorDemo.java" />
       </list>
     </option>
   </component>
@@ -111,7 +119,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548185351109" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548186541828" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -152,12 +160,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1548183931458</updated>
-      <workItem from="1548183933196" duration="1412000" />
+      <workItem from="1548183933196" duration="2600000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1412000" />
+    <option name="totallyTimeSpent" value="2600000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
@@ -200,23 +208,23 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/company/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        <state relative-caret-position="160">
+          <caret line="32" column="27" lean-forward="true" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
           <folding>
-            <element signature="e#144#145#0" expanded="true" />
-            <element signature="e#171#172#0" expanded="true" />
+            <element signature="e#181#182#0" expanded="true" />
             <element signature="e#208#209#0" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="e#152#153#0" expanded="true" />
-            <element signature="e#180#181#0" expanded="true" />
-            <element signature="e#222#223#0" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
-            <element signature="e#123#124#0" expanded="true" />
-            <element signature="e#151#152#0" expanded="true" />
-            <element signature="e#190#191#0" expanded="true" />
-            <element signature="e#224#225#0" expanded="true" />
-            <element signature="e#254#255#0" expanded="true" />
-            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#545#546#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+            <element signature="e#612#613#0" expanded="true" />
+            <element signature="e#641#642#0" expanded="true" />
             <element signature="e#324#325#0" expanded="true" />
             <element signature="e#360#361#0" expanded="true" />
           </folding>
@@ -225,8 +233,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/CalculatorDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="19" column="43" lean-forward="true" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+        <state relative-caret-position="385">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
         </state>
       </provider>
     </entry>

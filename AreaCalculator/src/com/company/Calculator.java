@@ -2,15 +2,16 @@ package com.company;
 
 public class Calculator {
 
-    private int width;
-    private int height;
-    private int base;
+    private double width;
+    private double height;
+    private double base;
+    private double area;
 
-    public int getBase() {
+    public double getBase() {
         return base;
     }
 
-    public void setBase(int base) {
+    public void setBase(double base) {
         this.base = base;
     }
 
@@ -24,25 +25,32 @@ public class Calculator {
         this.shape = shape;
     }
 
-    public int getWidth() {
+    public double getWidth() {
         return width;
     }
 
-    public void setWidth(int width) {
+    public void setWidth(double width) {
         this.width = width;
     }
 
-    public int getHeight() {
+    public double getHeight() {
         return height;
     }
 
-    public void setHeight(int height) {
+    public void setHeight(double height) {
         this.height = height;
     }
 
-    public int calculateArea() {
+    public double calculateArea() {
 
-        int area = width * height;
+        if(shape.equals("rectangle")) {
+            area = width * height;
+        } else if (shape.equals("triangle")){
+            area = (base * height) / 2;
+        } else {
+            System.out.println("We only do Rectangles and Triangles!");
+        }
+
         return area;
     }
 }

@@ -17,16 +17,31 @@ public class CalculatorDemo {
 
     public static void main(String[] args) {
 
-        Calculator calc = new Calculator();
+        // Rectangle
+        Calculator rectCalc = new Calculator();
 
-        calc.setWidth(5);
-        calc.setHeight(7);
+        rectCalc.setWidth(5);
+        rectCalc.setHeight(7);
+        rectCalc.setShape("rectangle");
 
-        int area = calc.calculateArea();
+        double rectArea = rectCalc.calculateArea();
 
-        System.out.println("The width of the rectangle is " + calc.getWidth());
-        System.out.println("The height of the rectangle is " + calc.getHeight());
-        System.out.println("The area of this rectangle is " + area);
+        System.out.println("The width/base of the " + rectCalc.getShape() + " is " + rectCalc.getWidth());
+        System.out.println("The height of the " + rectCalc.getShape() + " is " + rectCalc.getHeight());
+        System.out.println("The area of this " + rectCalc.getShape() + " is " + rectArea);
+
+        // Triangle
+        Calculator triCalc = new Calculator();
+
+        triCalc.setBase(5);
+        triCalc.setHeight(7);
+        triCalc.setShape("triangle");
+
+        double triArea = rectCalc.calculateArea();
+
+        System.out.println("The width/base of the " + triCalc.getShape() + " is " +triCalc.getWidth());
+        System.out.println("The height of the " + triCalc.getShape() + " is " + triCalc.getHeight());
+        System.out.println("The area of this " + triCalc.getShape() + " is " + triArea);
 
     }
 }
