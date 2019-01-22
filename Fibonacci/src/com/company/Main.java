@@ -11,7 +11,9 @@ public class Main {
 
        for(i = 2; i < 22; i++) {
            total = current + previous;
-           System.out.println(total);
+           if(total % 2 == 0) {
+               System.out.println(total);
+           }
            current = previous;
            previous = total;
        }
