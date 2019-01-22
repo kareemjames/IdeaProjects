@@ -21,7 +21,7 @@ public class Calculator {
         this.height = height;
     }
 
-    public int calculateArea(int width, int height) {
+    public int calculateArea() {
         int area = width * height;
         return area;
     }

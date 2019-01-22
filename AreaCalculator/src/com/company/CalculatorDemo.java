@@ -1,5 +1,6 @@
 package com.company;
 
+
 public class CalculatorDemo {
 
 //• Create a new project in IntelliJ named AreaCalculator using the Command Line App template
@@ -16,6 +17,16 @@ public class CalculatorDemo {
 
     public static void main(String[] args) {
 
+        Calculator calc = new Calculator();
 
+        calc.setWidth(5);
+        calc.setHeight(7);
+
+        int area = calc.calculateArea();
+
+        System.out.println("The width of the rectangle is " + calc.getWidth());
+        System.out.println("The height of the rectangle is " + calc.getHeight());
+        System.out.println("The area of this rectangle is " + area);
+        
     }
 }
