@@ -1,7 +1,13 @@
 package com.company;
 
 public class Circle {
-    double radius;
+    private double radius;
+    private double diameter;
+
+    public double getDiamter() {
+        diameter = radius * 2;
+        return diameter;
+    }
 
     public double getRadius() {
         return radius;
@@ -11,7 +17,7 @@ public class Circle {
         this.radius = radius;
     }
 
-    private double area() {
+    public double area() {
         double circleArea = Math.PI * radius * radius;
         return circleArea;
     }
