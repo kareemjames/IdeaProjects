@@ -1,11 +1,11 @@
 package com.company;
 
-public class Main {
+public class CalculatorDemo {
 
 //• Create a new project in IntelliJ named AreaCalculator using the Command Line App template
 //• Initialize your project as a Git repository and be sure to add and commit all changes as you work
-//• Rename your Main file to CalculatorDemo (right-click -> Refactor -> Rename...)
-//            • Create a new Java class file (File -> New -> Java Class) named Calculator
+//• Rename your CalculatorDemo file to CalculatorDemo (right-click -> Refactor -> Rename...)
+//• Create a new Java class file (File -> New -> Java Class) named Calculator
 //• Your Calculator should have (2) properties: width and height (with accessor methods)
 //• Your Calculator should have a method named calculateArea() which:
 //• Accepts width and height as parameters
@@ -16,6 +16,6 @@ public class Main {
 
     public static void main(String[] args) {
 
-        
+
     }
 }
