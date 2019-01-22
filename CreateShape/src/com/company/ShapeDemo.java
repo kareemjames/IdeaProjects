@@ -28,7 +28,14 @@ public class ShapeDemo {
 
                 switch(option) {
                     case 1:
-                        System.out.println("You have choosen option 1");
+                        System.out.println("You have chosen to make a circle");
+                        System.out.println("Can you please provide the radius of the circle");
+
+                        Circle circle = new Circle();
+                        double circleRadius = scan.nextInt();
+                        circle.setRadius(circleRadius);
+                        double circleArea = circle.area();
+                        System.out.println("You have created a circle with the radius of " + circle.getRadius() + " diameter of " + circle.getDiamter() + " and the area of " + circleArea);
                         break;
                     case 2:
                         System.out.println("You have choosen option 2");
