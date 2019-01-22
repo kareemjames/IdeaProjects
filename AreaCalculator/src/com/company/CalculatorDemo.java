@@ -27,6 +27,6 @@ public class CalculatorDemo {
         System.out.println("The width of the rectangle is " + calc.getWidth());
         System.out.println("The height of the rectangle is " + calc.getHeight());
         System.out.println("The area of this rectangle is " + area);
-        
+
     }
 }
