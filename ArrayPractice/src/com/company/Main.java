@@ -8,9 +8,11 @@ public class Main {
     public static void main(String[] args) {
 
         double[] dailyAverageTemp = new double[7];
+        double[] dailyAverageTempCelcius = new double[7];
         double i;
         double sum = 0;
         double avg= 0;
+        int count = 0;
 
         Scanner scan = new Scanner(System.in);
         System.out.println("This program will collect information on daily average temps");
@@ -37,5 +39,20 @@ public class Main {
 
         avg = sum / dailyAverageTemp.length;
         System.out.println("The average temp for the week is " + avg);
+
+        for(double z : dailyAverageTemp) {
+            //System.out.println(z);
+            z = (z-32) * 5/9;
+            //System.out.println(z);
+            dailyAverageTempCelcius[count] = z;
+            count ++;
+        }
+
+        System.out.println("Your temp in Celcius is:");
+        //System.out.println(Arrays.toString(dailyAverageTempCelcius)); This is how to print an array
+
+        for(double y = 0; y < dailyAverageTempCelcius.length; y++) {
+            System.out.println(dailyAverageTempCelcius[(int) y]);
+        }
     }
 }
