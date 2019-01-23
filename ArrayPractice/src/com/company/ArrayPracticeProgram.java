@@ -13,6 +13,7 @@ public class ArrayPracticeProgram {
         double sum = 0;
         double avg= 0;
         int count = 0;
+        int option;
 
         // Temp Object conversion
         // New object array
@@ -25,6 +26,8 @@ public class ArrayPracticeProgram {
 
         Scanner scan = new Scanner(System.in);
         System.out.println("This program will collect information on daily average temps");
+        System.out.println("If you would like to see your results in Fahrenheit choose 1 or choose 2 for Celsius ");
+        option = scan.nextInt();
 
         System.out.println("Please enter the temp for Sunday");
         //dailyAverageTemp[0] = scan.nextInt();
@@ -56,26 +59,35 @@ public class ArrayPracticeProgram {
 
         System.out.println("Thank you for this information, I will get right on it.");
 
+        if(option == 1) {
+
+            // Loop through objects to display temps in F
+            for(Temperature g : tempArray) {
+                System.out.println("The temp in F is: " + g.getTempInF());
+                sum += g.getTempInF();
+            }
+
+            // Get average temp in F
+            avg = sum / tempArray.length;
+            System.out.println("This is the average temp for the week in F: " + avg);
+        } else {
+
+            // Loop through objects and convert temp to C
+            for(Temperature t : tempArray) {
+                System.out.println("This temp in C is: " + t.convertToCelcius());
+                sum += t.convertToCelcius();
+            }
+            // Get average temp in C
+            avg = sum / tempArray.length;
+            System.out.println("This is the average temp for the week in C: " + avg);
+
+        }
+
 //        // Loop through dailyAverageTemp to display temp in F
 //        for(i = 0; i < dailyAverageTemp.length; i++) {
 //            System.out.println(dailyAverageTemp[(int)i]);
 //            sum += dailyAverageTemp[(int)i];
 //        }
-
-        // Loop through objects to display temps in F
-        for(Temperature g : tempArray) {
-            System.out.println(g.getTempInF());
-            sum += g.getTempInF();
-        }
-
-        // Get average temp in F
-        avg = sum / tempArray.length;
-        System.out.println(avg);
-
-        // Loop through objects and convert temp to C
-        for(Temperature t : tempArray) {
-            System.out.println("This is in celcius " + t.convertToCelcius());
-        }
 
 //        avg = sum / dailyAverageTemp.length;
 //        System.out.println("The average temp for the week is " + avg);
