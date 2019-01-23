@@ -84,7 +84,8 @@ public class ShapeDemo {
                     case 4:
                         System.exit(0);
                     default:
-                        System.out.println("default");
+                        System.out.println("Please enter a valid choice");
+                        error = true;
                         break;
                 }
             } else {
