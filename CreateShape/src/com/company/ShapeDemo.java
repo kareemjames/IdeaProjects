@@ -15,6 +15,7 @@ public class ShapeDemo {
             System.out.println("1 for Circle");
             System.out.println("2 for Triangle");
             System.out.println("3 for Square");
+            System.out.println("4 to exit");
             int option;
 
             // Validation for choices
@@ -77,8 +78,11 @@ public class ShapeDemo {
                         double squarePeri = square.perimeter();
 
                         System.out.println("You have created a Square with a side length of " + side + " a perimenter of " + squarePeri + " and an area of " + squareArea);
-
                         break;
+
+                    // Exit
+                    case 4:
+                        System.exit(0);
                     default:
                         System.out.println("default");
                         break;
