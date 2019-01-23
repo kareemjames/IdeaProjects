@@ -65,7 +65,13 @@ public class ArrayPracticeProgram {
         // Loop through objects to display temps in F
         for(Temperature g : tempArray) {
             System.out.println(g.getTempInF());
+            sum += g.getTempInF();
         }
+
+        // Get average temp in F
+        avg = sum / tempArray.length;
+        System.out.println(avg);
+        
 
 //        avg = sum / dailyAverageTemp.length;
 //        System.out.println("The average temp for the week is " + avg);
