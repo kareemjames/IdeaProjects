@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="992c5e6b-1f7f-42fa-a245-7748fb9ac028" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/company/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AreaCalculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AreaCalculator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CreateShape/com/company/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CreateShape/com/company/Circle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CreateShape/com/company/ShapeDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CreateShape/com/company/ShapeDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CreateShape/com/company/Triangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CreateShape/com/company/Triangle.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/ShapeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/ShapeDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Square.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/ShapeDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="50" selection-start-line="50" selection-end-line="50" />
+            <state relative-caret-position="443">
+              <caret line="71" column="12" selection-start-line="71" selection-start-column="12" selection-end-line="71" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -28,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/company/Circle.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="20" column="50" lean-forward="true" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+              <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
               <folding>
                 <element signature="e#94#95#0" expanded="true" />
                 <element signature="e#123#124#0" expanded="true" />
@@ -39,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Triangle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+            <state relative-caret-position="-35">
+              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
               <folding>
                 <element signature="e#158#159#0" expanded="true" />
                 <element signature="e#188#189#0" expanded="true" />
@@ -69,8 +73,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Square.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -91,8 +95,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/company/Circle.java" />
-        <option value="$PROJECT_DIR$/src/com/company/ShapeDemo.java" />
         <option value="$PROJECT_DIR$/src/com/company/Triangle.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Square.java" />
+        <option value="$PROJECT_DIR$/src/com/company/ShapeDemo.java" />
       </list>
     </option>
   </component>
@@ -136,7 +141,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548192901059" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548252218963" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -177,12 +182,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1548186844755</updated>
-      <workItem from="1548186846431" duration="5561000" />
+      <workItem from="1548186846431" duration="9131000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5561000" />
+    <option name="totallyTimeSpent" value="9131000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
@@ -223,24 +228,10 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/company/Square.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/ShapeDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Circle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="20" column="50" lean-forward="true" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+          <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
           <folding>
             <element signature="e#94#95#0" expanded="true" />
             <element signature="e#123#124#0" expanded="true" />
@@ -252,8 +243,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Triangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        <state relative-caret-position="-35">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
           <folding>
             <element signature="e#158#159#0" expanded="true" />
             <element signature="e#188#189#0" expanded="true" />
@@ -272,6 +263,20 @@
             <element signature="e#194#195#0" expanded="true" />
             <element signature="e#226#227#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Square.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/ShapeDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="71" column="12" selection-start-line="71" selection-start-column="12" selection-end-line="71" selection-end-column="12" />
         </state>
       </provider>
     </entry>

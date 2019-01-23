@@ -20,9 +20,6 @@ public class ShapeDemo {
                 option = scan.nextInt();
                 if(option == 1 || option == 2|| option == 3) {
                     error = false;
-                } else {
-                    System.out.println("Please enter a vaild choice");
-                    error = true;
                 }
 
                 switch(option) {
@@ -48,10 +45,17 @@ public class ShapeDemo {
                         System.out.println("Can you please provide the height of the triangle");
                         double triHeight = scan.nextInt();
                         triangle.setHeight(triHeight);
+                        System.out.println("Can you please provide the length of the first side");
+                        double s1 = scan.nextInt();
+                        triangle.setSideOne(s1);
+                        System.out.println("Can you please provide the length of the second side");
+                        double s2 = scan.nextInt();
+                        triangle.setSideTwo(s2);
 
+                        double triPeri = triangle.perimeter();
                         double triArea = triangle.area();
 
-                        System.out.println("You have created a Triangle with a base of " + triangle.getBase() + " a height of " + triangle.getHeight() + " and an area of " + triArea);
+                        System.out.println("You have created a Triangle with a base of " + triangle.getBase() + " a height of " + triangle.getHeight() + " an area of " + triArea + " and a periment of " + triPeri);
                         break;
                     case 3:
                         System.out.println("You have choosen option 3");
@@ -60,12 +64,13 @@ public class ShapeDemo {
                         System.out.println("default");
                         break;
                 }
+            } else {
+                System.out.println("Please enter a vaild choice");
+                error = true;
+                scan.next();
             }
 
-
-
-
-        }while(error);
+        } while(error);
 
 
     }
