@@ -62,6 +62,7 @@ public class LibraryDemo {
                     break;
                 default:
                     System.out.println("Please choose a valid option");
+                    break;
             }
         } while (isBrowsing);
     }
