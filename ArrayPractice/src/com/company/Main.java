@@ -8,6 +8,9 @@ public class Main {
     public static void main(String[] args) {
 
         double[] dailyAverageTemp = new double[7];
+        double i;
+        double sum = 0;
+        double avg= 0;
 
         Scanner scan = new Scanner(System.in);
         System.out.println("This program will collect information on daily average temps");
@@ -26,6 +29,13 @@ public class Main {
         System.out.println("Please enter the temp for Saturday");
         dailyAverageTemp[6] = scan.nextInt();
         System.out.println("Thank you for this information, I will get right on it.");
-        System.out.println(Arrays.toString(dailyAverageTemp));
+
+        for(i = 0; i < dailyAverageTemp.length; i++) {
+            System.out.println(dailyAverageTemp[(int)i]);
+            sum += dailyAverageTemp[(int)i];
+        }
+
+        avg = sum / dailyAverageTemp.length;
+        System.out.println("The average temp for the week is " + avg);
     }
 }
