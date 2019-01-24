@@ -4,7 +4,6 @@
     <list default="true" id="e7164c7d-f646-47b1-a405-aa12be9c4aca" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../AddressBookProgram/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AddressBookProgram/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AddressBookProgram/src/com/company/AddyBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AddressBookProgram/src/com/company/AddyBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LibraryProgram/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryProgram/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -156,12 +155,12 @@
       <option name="presentableId" value="Default" />
       <updated>1548348304358</updated>
       <workItem from="1548348306065" duration="1035000" />
-      <workItem from="1548353991733" duration="742000" />
+      <workItem from="1548353991733" duration="787000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1777000" />
+    <option name="totallyTimeSpent" value="1822000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
