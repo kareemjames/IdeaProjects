@@ -3,10 +3,10 @@ package com.company;
 public class Contact {
     private String name;
     private String address;
-    private int phoneNumber;
-    private int birthDate;
+    private String phoneNumber;
+    private String birthDate;
 
-    public Contact(String name, String address, int phoneNumber, int birthDate) {
+    public Contact(String name, String address, String phoneNumber, String birthDate) {
         this.name = name;
         this.address = address;
         this.phoneNumber = phoneNumber;
@@ -29,19 +29,19 @@ public class Contact {
         this.address = address;
     }
 
-    public int getPhoneNumber() {
+    public String getPhoneNumber() {
         return phoneNumber;
     }
 
-    public void setPhoneNumber(int phoneNumber) {
+    public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
 
-    public int getBirthDate() {
+    public String getBirthDate() {
         return birthDate;
     }
 
-    public void setBirthDate(int birthDate) {
+    public void setBirthDate(String birthDate) {
         this.birthDate = birthDate;
     }
 

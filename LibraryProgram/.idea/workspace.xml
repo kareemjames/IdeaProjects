@@ -3,12 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3e34ed82-5099-4301-bf79-3693c3ec2c0d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../AddressBookProgram/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AddressBookProgram/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AddressBookProgram/out/production/AddressBookProgram/com/company/AddressBookDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AddressBookProgram/out/production/AddressBookProgram/com/company/AddressBookDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AddressBookProgram/out/production/AddressBookProgram/com/company/Contact.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AddressBookProgram/out/production/AddressBookProgram/com/company/Contact.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AddressBookProgram/src/com/company/AddressBookDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AddressBookProgram/src/com/company/AddressBookDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AddressBookProgram/src/com/company/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AddressBookProgram/src/com/company/Contact.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SandwhichProgram/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SandwhichProgram/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

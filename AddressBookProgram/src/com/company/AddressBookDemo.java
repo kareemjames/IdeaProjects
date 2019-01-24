@@ -38,9 +38,9 @@ public class AddressBookDemo {
                         System.out.println("address");
                         String tempAddress = scan.nextLine();
                         System.out.println("phone number (no dashes please)");
-                        int tempPhone = scan.nextInt();
+                        String tempPhone = scan.nextLine();
                         System.out.println("birthdate (format mm/dd/yyyy no slashes please");
-                        int tempBirth = scan.nextInt();
+                        String tempBirth = scan.nextLine();
                         addyBook.contacts.add(new Contact(tempName, tempAddress, tempPhone, tempBirth));
                         System.out.println("you have successfully added the contact " + addyBook.contacts.get(addyBook.contacts.size()-1));
                         break;
