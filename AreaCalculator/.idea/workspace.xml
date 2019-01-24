@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe55074d-4463-4868-8728-598d0bee6e44" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../CreateShape/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CreateShape/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CreateShape/out/production/CreateShape/com/company/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CreateShape/out/production/CreateShape/com/company/Circle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CreateShape/out/production/CreateShape/com/company/ShapeDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CreateShape/out/production/CreateShape/com/company/ShapeDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CreateShape/out/production/CreateShape/com/company/Triangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CreateShape/out/production/CreateShape/com/company/Triangle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CreateShape/src/com/company/ShapeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CreateShape/src/com/company/ShapeDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CreateShape/src/com/company/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CreateShape/src/com/company/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HangmanProgram/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HangmanProgram/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -93,7 +88,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -116,6 +110,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -164,17 +159,18 @@
       <updated>1548183931458</updated>
       <workItem from="1548183933196" duration="2699000" />
       <workItem from="1548249302647" duration="355000" />
+      <workItem from="1548340858098" duration="11000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3054000" />
+    <option name="totallyTimeSpent" value="3065000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11965812" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12087912" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
