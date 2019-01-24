@@ -1,5 +1,6 @@
 package com.company;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class HangmanDemo {
@@ -10,6 +11,15 @@ public class HangmanDemo {
         Scanner scan = new Scanner(System.in);
 
         do {
+            String[] words = {"hello", "bread", "fruit", "yellow"};
+
+            // Randomizer to pick random word from array
+            Random random = new Random();
+            int index = random.nextInt(words.length);
+            String randomWord = words[index];
+
+            System.out.println(randomWord);
+
             System.out.println("Welcome to Hangman");
 
         } while(isPlaying);
