@@ -7,5 +7,8 @@ public class SandwichMaker {
         Sandwich pbj = new Sandwich("whole wheat", "peanut butter", "none", false);
 
         pbj.describeSandwich();
+
+        Sandwich wgt = new Sandwich("turkey", "pepper jack", true);
+        wgt.describeSandwich();
     }
 }

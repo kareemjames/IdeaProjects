@@ -6,6 +6,20 @@ public class Sandwich {
     private String cheeseType;
     private boolean veggies;
 
+    public Sandwich(String breadType, String proteinType, String cheeseType, boolean veggies) {
+        this.breadType = breadType;
+        this.proteinType = proteinType;
+        this.cheeseType = cheeseType;
+        this.veggies = veggies;
+    }
+
+    public Sandwich(String proteinType, String cheeseType, boolean veggies) {
+        breadType = "Whole Grain";
+        this.proteinType = proteinType;
+        this.cheeseType = cheeseType;
+        this.veggies = veggies;
+    }
+
     public String getBreadType() {
         return breadType;
     }
@@ -40,12 +54,5 @@ public class Sandwich {
 
     public void describeSandwich() {
         System.out.println(breadType + " " + proteinType + " " + cheeseType + " " + veggies);
-    }
-
-    public Sandwich(String breadType, String proteinType, String cheeseType, boolean veggies) {
-        this.breadType = breadType;
-        this.proteinType = proteinType;
-        this.cheeseType = cheeseType;
-        this.veggies = veggies;
     }
 }
