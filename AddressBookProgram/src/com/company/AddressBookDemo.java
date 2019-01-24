@@ -22,10 +22,12 @@ public class AddressBookDemo {
                 case 1:
                     if(addyBook.numberOfContacts() == 0) {
                         System.out.println("You have no contacts yet, please add one");
-                        areBrowsing = true;
                     } else {
-                        return;
+                        for(int i = 0; i < addyBook.contacts.size(); i++) {
+                            System.out.println(addyBook.contacts.get(i) + "\n");
+                        }
                     }
+                    areBrowsing = true;
                     break;
                 default:
                     break;
