@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="3e34ed82-5099-4301-bf79-3693c3ec2c0d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../AddressBookProgram/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AddressBookProgram/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AddressBookProgram/out/production/AddressBookProgram/com/company/AddressBookDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AddressBookProgram/out/production/AddressBookProgram/com/company/AddressBookDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AddressBookProgram/out/production/AddressBookProgram/com/company/Contact.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AddressBookProgram/out/production/AddressBookProgram/com/company/Contact.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AddressBookProgram/src/com/company/AddressBookDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AddressBookProgram/src/com/company/AddressBookDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AddressBookProgram/src/com/company/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AddressBookProgram/src/com/company/Contact.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/LibraryDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="618">
-              <caret line="59" column="21" lean-forward="true" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
+            <state relative-caret-position="138">
+              <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -131,12 +132,12 @@
       <workItem from="1548274012568" duration="8862000" />
       <workItem from="1548342456106" duration="1437000" />
       <workItem from="1548353684301" duration="15000" />
-      <workItem from="1548353732917" duration="1720000" />
+      <workItem from="1548353732917" duration="1743000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12034000" />
+    <option name="totallyTimeSpent" value="12057000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
@@ -230,8 +231,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/LibraryDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="618">
-          <caret line="59" column="21" lean-forward="true" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
+        <state relative-caret-position="138">
+          <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
         </state>
       </provider>
     </entry>

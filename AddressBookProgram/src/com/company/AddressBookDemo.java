@@ -44,6 +44,8 @@ public class AddressBookDemo {
                         addyBook.contacts.add(new Contact(tempName, tempAddress, tempPhone, tempBirth));
                         System.out.println("you have successfully added the contact " + addyBook.contacts.get(addyBook.contacts.size()-1));
                         break;
+                case 3:
+                    //method that takes a string and gets user input and returns it
 
                 default:
                     break;
