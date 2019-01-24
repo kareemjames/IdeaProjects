@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7164c7d-f646-47b1-a405-aa12be9c4aca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../AddressBookProgram/src/com/company/AddyBook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AddressBookProgram/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AddressBookProgram/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AddressBookProgram/src/com/company/AddyBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AddressBookProgram/src/com/company/AddyBook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LibraryProgram/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryProgram/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Sandwich.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Sandwich.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/SandwichMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/SandwichMaker.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -158,12 +156,12 @@
       <option name="presentableId" value="Default" />
       <updated>1548348304358</updated>
       <workItem from="1548348306065" duration="1035000" />
-      <workItem from="1548353991733" duration="226000" />
+      <workItem from="1548353991733" duration="508000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1261000" />
+    <option name="totallyTimeSpent" value="1543000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
@@ -186,7 +184,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32941177" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
