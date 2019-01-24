@@ -31,6 +31,11 @@ public class HangmanDemo {
             System.out.println("Guess a letter and try to win before you get hung");
             String letter = scan.next();
 
+            if(String.valueOf(chars).contains(letter)) {
+                System.out.println("This contains this letter");
+            } else {
+                System.out.println("Try again");
+            }
 
 
 
