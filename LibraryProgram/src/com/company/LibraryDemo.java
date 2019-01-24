@@ -39,13 +39,15 @@ public class LibraryDemo {
                     if(count < library.numberOfBooksInLibrary()) {
                         System.out.println("count: " + count);
                         System.out.println("Great! You have decided to add a book");
-                        System.out.println("Please provide the Title");
-                        library.books[count].setTitle(scan.next());
-                        System.out.println("Author");
-                        library.books[count].setAuthor(scan.next());
-                        System.out.println("Genre");
-                        library.books[count].setGenre(scan.next());
-                        System.out.println("Number of Pages");
+                        System.out.print("Please provide the Title");
+                        // Need to clear out scanner before you go from primitive type to reference type
+                        scan.next();
+                        library.books[count].setTitle(scan.nextLine());
+                        System.out.print("Author");
+                        library.books[count].setAuthor(scan.nextLine());
+                        System.out.print("Genre");
+                        library.books[count].setGenre(scan.nextLine());
+                        System.out.print("Number of Pages");
                         library.books[count].setNoOfPages(scan.nextInt());
 
                         System.out.println("Just added: " + library.books[count].getTitle());
