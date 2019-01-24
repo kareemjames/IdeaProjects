@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="e7164c7d-f646-47b1-a405-aa12be9c4aca" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../AddressBookProgram/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AddressBookProgram/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AddressBookProgram/src/com/company/AddyBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AddressBookProgram/src/com/company/AddyBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AddressBookProgram/out/production/AddressBookProgram/com/company/AddressBookDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AddressBookProgram/out/production/AddressBookProgram/com/company/AddressBookDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AddressBookProgram/out/production/AddressBookProgram/com/company/Contact.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AddressBookProgram/out/production/AddressBookProgram/com/company/Contact.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AddressBookProgram/src/com/company/AddressBookDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AddressBookProgram/src/com/company/AddressBookDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AddressBookProgram/src/com/company/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AddressBookProgram/src/com/company/Contact.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProgram/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryProgram/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,7 +19,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/SandwichMaker.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
@@ -23,7 +28,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Sandwich.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
@@ -155,12 +160,12 @@
       <option name="presentableId" value="Default" />
       <updated>1548348304358</updated>
       <workItem from="1548348306065" duration="1035000" />
-      <workItem from="1548353991733" duration="787000" />
+      <workItem from="1548353991733" duration="1393000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1822000" />
+    <option name="totallyTimeSpent" value="2428000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
@@ -201,6 +206,13 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/company/SandwichMaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Sandwich.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -223,13 +235,6 @@
             <element signature="e#775#776#0" expanded="true" />
             <element signature="e#813#814#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/SandwichMaker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
         </state>
       </provider>
     </entry>

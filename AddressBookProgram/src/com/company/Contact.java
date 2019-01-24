@@ -44,4 +44,14 @@ public class Contact {
     public void setBirthDate(int birthDate) {
         this.birthDate = birthDate;
     }
+
+    @Override
+    public String toString() {
+        return "Contact{" +
+                "name='" + name + '\'' +
+                ", address='" + address + '\'' +
+                ", phoneNumber=" + phoneNumber +
+                ", birthDate=" + birthDate +
+                '}';
+    }
 }
