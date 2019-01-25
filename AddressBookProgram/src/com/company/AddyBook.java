@@ -19,4 +19,10 @@ public class AddyBook {
             }
         }
     }
+
+    public void searchByPhone(String phone) {
+        for(Contact contact : contacts) {
+            if(contact.getPhoneNumber().equals)
+        }
+    }
 }
