@@ -22,7 +22,11 @@ public class AddyBook {
 
     public void searchByPhone(String phone) {
         for(Contact contact : contacts) {
-            if(contact.getPhoneNumber().equals)
+            if(contact.getPhoneNumber().equals(phone)) {
+                System.out.println("Your contact was found " + contact);
+            } else {
+                System.out.println("Your contact was not found");
+            }
         }
     }
 }

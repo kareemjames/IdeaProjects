@@ -47,13 +47,13 @@ public class AddressBookDemo {
 
                     break;
                 case 3:
-                    System.out.println("Please enter the name of the person you are looking for");
+                    System.out.println("Please enter the name of the person you're looking for");
                     String searchName = scan.next();
                     addyBook.searchByName(searchName);
                     areBrowsing = true;
                     break;
                 case 4:
-
+                    System.out.println("Please enter the phone number of the person you're looking for");
                     //method that takes a string and gets user input and returns it
 
                 default:
