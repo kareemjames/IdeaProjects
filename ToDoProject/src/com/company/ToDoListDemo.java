@@ -10,7 +10,15 @@ public class ToDoListDemo {
 //
 //    Bonus: Your program should allow the user to create multiple ToDoLists, and should permit the user to choose which ToDoList they want to access and modify.
 
-    public static void main(String[] args) {
-	// write your code here
+	static ToDoListLogic toDoListLogic = new ToDoListLogic();
+
+	public static void main(String[] args) {
+
+        while(true) {
+            welcomeLoop();
+        }
+    }
+    public static void welcomeLoop() {
+	    toDoListLogic.welcome();
     }
 }
