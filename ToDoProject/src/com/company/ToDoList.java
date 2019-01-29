@@ -6,6 +6,7 @@ public class ToDoList {
 
     private String name;
     private ArrayList<ToDoList> list = new ArrayList<ToDoList>();
+    private ArrayList<ToDoListItem> item = new ArrayList<>();
 
     public ToDoList() {
 
