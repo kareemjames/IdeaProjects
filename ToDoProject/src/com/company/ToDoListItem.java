@@ -12,6 +12,8 @@ public class ToDoListItem {
         this.description = description;
         isComplete = false;
     }
+
+
     public String getDescription() {
         return description;
     }

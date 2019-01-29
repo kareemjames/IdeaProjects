@@ -6,6 +6,7 @@ public class ToDoListLogic {
     Scanner scan = new Scanner(System.in);
     String userInput;
     ToDoList toDoList = new ToDoList();
+    ToDoList tempToDoList;
 
     ToDoListLogic() {
 
@@ -24,10 +25,19 @@ public class ToDoListLogic {
     public void welcome() {
         System.out.println("Welcome to your ToDoList! \nType create - Create Todo List \nview - View Todos \nexit - Exit");
         userInput = stringInput(userInput);
-        System.out.println(userInput);
 
-        if(userInput.equals("create")) {
-            createToDo();
+        switch(userInput) {
+            case "create":
+                createToDo();
+                break;
+            case "view":
+                toDoList.getListOfToDoLists();
+                System.out.println("Select the list you would like to add a todo");
+                userInput = stringInput(userInput);
+                tempToDoList = toDoList.selectTodoList(userInput);
+                System.out.println("Type add - Add todo \nupdate - Update todo\ndelete - delete todo");
+                userInput = stringInput(userInput);
+                break;
         }
     }
 
@@ -39,6 +49,7 @@ public class ToDoListLogic {
         toDoList.addTodoList(toDoListN);
 
     }
+
 
 
 }

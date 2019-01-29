@@ -29,6 +29,18 @@ public class ToDoList {
        getListOfToDoLists();
    }
 
+   public ToDoList selectTodoList(String x) {
+       ToDoList toDoList = null;
+
+       for(int i = 0; i < list.size(); i++) {
+           if(x.equals(list.get(i).name)) {
+               toDoList = list.get(i);
+               System.out.println("You have choosen the " + toDoList.name + " list");
+           }
+       }
+       return toDoList;
+   }
+
     public String getName() {
         return name;
     }
